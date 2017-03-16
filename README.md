@@ -39,3 +39,25 @@ m = m + 1;
 m = m + 1;
 n = 100 + m;
 ```
+4. Write a single C++ statement that subtracts the sum of x and y from z and then increments y.
+```c++
+result = z - ( x + y++)
+```
+5. Write a single C++ statement that decrements the variable n and then adds it to total.
+```c++
+result =  --n + total;
+```
+6. Write a program that prints the first sentence of the Gettysburg Address (or your favorite quotation).
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout << "\"Talk is cheap. Show me the code\" -Linus Torvalds" << endl;
+	return 0;
+}
+
+```
+7. Write and run a program that prints the first letter of your last name as a block letter in a 7 × 7 grid of stars
+السؤال دا هيعتمد علي إسمك بس أنا هيبقي حرف A
