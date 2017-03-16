@@ -27,13 +27,13 @@ n -= 1;
 n += -1;
 
 ```
-2. Without using the pre-increment operator, write a block of C++ code that has the same effect as the statement.
+2. Without using the pre-increment operator, write a block of C++ code that has the same effect as the statement.    
 ``` n = 100 + m++; ```
 ```c++
 n = 100 + m;
 m = m + 1;
 ```
-3. Without using the pre-increment operator, write a block of C++ code that has the same effect as the statement.
+3. Without using the pre-increment operator, write a block of C++ code that has the same effect as the statement.     
 ``` n = 100 + ++m; ```
 ```c++
 m = m + 1;
