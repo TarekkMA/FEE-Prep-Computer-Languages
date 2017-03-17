@@ -1,4 +1,4 @@
-### Chapter 2 Answers
+## Chapter 2 Answers
 ***
 [1](#1) . [2](#2) . [3](#3) . [4](#4) . [5](#5) . [6](#6) . [7](#7) . [8](#8) . [9](#9) . [10](#10) . [11](#11) . [12](#12) . [13](#13) . [14](#14) . [15](#15) . [16](#16) . [17](#17)
 ***
@@ -246,5 +246,37 @@ int main() {
 }
 ```
 #### 17.
-**Write a program to evaluate the fule consumption of a car. The mileage at the start and the end of the journey should be read, and also the fule level in the tank at the start and end of journey. Calculate fuel used, miles travekked, and hence the overall fule consumption in miles travelled per gallon of fuel.**    
-هيتم إضافة الإجابة في أقرب وقت :zzz:
+**Write a program to evaluate the fule consumption of a car. The mileage at the start and the end of the journey should be read, and also the fule level in the tank at the start and end of journey. Calculate fuel used, miles travelled, and hence the overall fule consumption in miles travelled per gallon of fuel.**    
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+	
+	float mileageS, mileageE;
+	float fuleS, fuleE;
+	float fuleUsed, milesTravelld, milePerFule;
+	
+	cout << "Enter mileage at the start :";
+	cin >> mileageS;
+	cout << "Enter Ending at the end :";
+	cin >> mileageE;
+	
+	cout << "Enter fule at the start (liters):";
+	cin >> fuleS;
+	cout << "Enter fule at the end (liters):";
+	cin >> fuleE;
+	
+	fuleUsed = fuleS - fuleE;
+	milesTravelld = mileageE - mileageS;
+	milePerFule = milesTravelld / fuleUsed;
+	
+	cout << "Fule used :" << fuleUsed << " liters." << endl;
+	cout << "Miles travelled :" << milesTravelld << " miles." << endl;
+	cout << "Miles travelled per fule liters :" << milePerFule << " miles/liter." << endl;
+
+	
+	return 0;
+}
+```
