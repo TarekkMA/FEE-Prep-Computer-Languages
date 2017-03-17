@@ -246,5 +246,5 @@ int main() {
 }
 ```
 #### 17.
-**Write a program to evaluate the fule consumption of a car. The mileage at the start and the end of the journey should be read, and also the fule level in the tank at the start and end of journey. Calculate fuel used, miles travekked, and hence the overall fule consumption in miles travelled per gallon of fuel.**
-هيتم إضافة السؤال في أقرب وقت :zzz:
+**Write a program to evaluate the fule consumption of a car. The mileage at the start and the end of the journey should be read, and also the fule level in the tank at the start and end of journey. Calculate fuel used, miles travekked, and hence the overall fule consumption in miles travelled per gallon of fuel.**    
+هيتم إضافة الإجابة في أقرب وقت :zzz:
