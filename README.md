@@ -1,14 +1,14 @@
-# FEE Prep Computer Languages
+# :computer: FEE Prep Computer Languages
 **2016-2017 Book**
 ***
-## **Contents :-**
+## :book:**Contents :-**
 * #### :beginner: **Answers**
-    * **Chapter 1**  :warning:
+    * **Chapter 1** 
     * [**Chapter 2**](answers/chapter-2.md)
     
-    * **Chapter 3 ** :warning:
-    * **Chapter 4**  :warning:
-    * **Chapter 5**  :warning:
-    * **Chapter 6**  :warning:
+    * **Chapter 3**
+    * **Chapter 4**
+    * **Chapter 5**
+    * **Chapter 6**
 
 ***
