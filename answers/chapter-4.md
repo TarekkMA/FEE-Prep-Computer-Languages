@@ -264,4 +264,97 @@ int main()
     return 0;
 }
 ```
+#### 12
+```cpp
+#include <iostream>
 
+using namespace std;
+
+int perm(int n,int k){
+    //nPk = (n!) / (n-k)!
+    int p = 1;
+    for (int i=n;i>(n-k);i--){
+        p*=i;
+    }
+    return p;
+}
+
+int main()
+{
+    int n=5,k=3;
+    if (perm(n,k) == 60){
+        cout << "PASS\n";
+    }else{
+        cout << "FAIL\n";
+    }
+    return 0;
+}
+```
+
+#### 13
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int fact(int n){
+    int f=1;
+    for(int i=1;i<=n;i++)f*=i;
+    return f;
+}
+
+int comp(int n,int k){
+    //nCk = (n!) / k! * (n-k)!
+    int c = fact(n) / (fact(k) * fact(n-k));
+    return c;
+}
+
+int main()
+{
+    int n=6,k=3;
+    if (comp(n,k) == 20){
+        cout << "PASS\n";
+    }else{
+        cout << "FAIL\n";
+    }
+    return 0;
+}
+```
+#### 14
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int fact(int n){
+    int f=1;
+    for(int i=1;i<=n;i++)f*=i;
+    return f;
+}
+
+int perm(int n,int k){
+    //nPk = (n!) / (n-k)!
+    int p = 1;
+    for (int i=n;i>(n-k);i--){
+        p*=i;
+    }
+    return p;
+}
+
+int comp(int n,int k){
+    //nCk = nPk / k!
+    int c = perm(n,k)/fact(k);
+    return c;
+}
+
+int main()
+{
+    int n=6,k=3;
+    if (comp(n,k) == 20){
+        cout << "PASS\n";
+    }else{
+        cout << "FAIL\n";
+    }
+    return 0;
+}
+```
