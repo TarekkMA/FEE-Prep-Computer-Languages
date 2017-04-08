@@ -1,6 +1,8 @@
-## Chapter 4 Answers
+# طارق محمد عبد الله *-* Section 8
+## **Chapter 4**
+Page 232
 ***
-** Questions index: **    
+**Questions index:**    
 [1](#1) . [2](#2) . [3](#3) . [4](#4) . [5](#5) . [6](#6) . [7](#7) . [8](#8) . [9](#9) . [10](#10) . [11](#11) . [12](#12) . [13](#13) . [14](#14) . [15](#15) . [16](#16) . [17](#17) . [18](#18)
 ***
 #### 1   
@@ -458,7 +460,8 @@ int isSquare(int x){
 
 int main()
 {
-    if (isSquare(4) && !isSquare(10) && isSquare(64) && !isSquare(70)){
+    if (isSquare(4) && !isSquare(10)
+    && isSquare(64) && !isSquare(70)){
         cout << "TEST PASS\n";
     }else{
         cout << "TEST FAIL\n";
