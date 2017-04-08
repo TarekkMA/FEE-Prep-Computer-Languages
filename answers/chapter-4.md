@@ -1,5 +1,8 @@
-# Chapter 4
-
+## Chapter 4 Answers
+***
+** Questions index: **    
+[1](#1) . [2](#2) . [3](#3) . [4](#4) . [5](#5) . [6](#6) . [7](#7) . [8](#8) . [9](#9) . [10](#10) . [11](#11) . [12](#12) . [13](#13) . [14](#14) . [15](#15) . [16](#16) . [17](#17) . [18](#18)
+***
 #### 1   
 ```cpp
 y % 4 == 0 && (y % 100 != 0 || y % 400 == 0)
@@ -354,6 +357,111 @@ int main()
         cout << "PASS\n";
     }else{
         cout << "FAIL\n";
+    }
+    return 0;
+}
+```
+#### 15
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int digit(int n,int k){
+    int number1 = n * pow(10,-k);
+    int result = number1%10;
+    return result;
+}
+
+int main()
+{
+    int n=29415,k1=3,k2=0,k3=1;
+    if (digit(n,k1)==9 && digit(n,k2)==5 && digit(n,k3)==1){
+        cout << "PASS\n";
+    }else{
+        cout << "FAIL\n";
+    }
+    return 0;
+}
+```
+#### 16
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int gcd(int number1,int number2){
+    int number = number1;
+    int divisor = number2;
+    int reminder = number%divisor;
+    while(reminder != 0){
+        number = divisor;
+        divisor = reminder;
+        reminder = number%divisor;
+    }
+    return divisor;
+}
+
+int main()
+{
+    if (gcd(216,594) == 54 && gcd(216,594)==gcd(594,216)){
+        cout << "PASS\n";
+    }else{
+        cout << "FAIL\n";
+    }
+    return 0;
+}
+```
+#### 17
+```cpp
+#include <iostream>
+
+using namespace std;
+
+double power(double x,int p){
+    double result=1;
+    for (int i = 1;i<=p;i++)result*=x;
+    return result;
+}
+
+int main()
+{
+    if (power(2,3)==8 && power(2,20)==1048576){
+        cout << "TEST PASS\n";
+    }else{
+        cout << "TEST FAIL\n";
+    }
+
+    int x = 2;
+    cout << x << "^20 = " << power(x,20) << endl;
+
+    return 0;
+}
+```
+#### 18
+
+```cpp
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int isSquare(int x){
+    float sqrtx = sqrt(x);
+    if(sqrtx > (int)sqrtx){
+         return 0; // FALSE
+    }else{
+        return 1; // TRUE
+    }
+}
+
+int main()
+{
+    if (isSquare(4) && !isSquare(10) && isSquare(64) && !isSquare(70)){
+        cout << "TEST PASS\n";
+    }else{
+        cout << "TEST FAIL\n";
     }
     return 0;
 }

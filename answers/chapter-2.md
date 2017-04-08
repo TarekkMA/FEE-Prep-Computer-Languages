@@ -1,6 +1,6 @@
 ## Chapter 2 Answers
 ***
-** Questions index: **
+** Questions index: **     
 [1](#1) . [2](#2) . [3](#3) . [4](#4) . [5](#5) . [6](#6) . [7](#7) . [8](#8) . [9](#9) . [10](#10) . [11](#11) . [12](#12) . [13](#13) . [14](#14) . [15](#15) . [16](#16) . [17](#17)
 ***
 #### 1.
@@ -55,7 +55,7 @@ int main()
 ```
 #### 7.
 **Write and run a program that prints the first letter of your last name as a block letter in a 7 × 7 grid of stars**    
-السؤال دا هيعتمد علي إسمك بس أنا هيبقي حرف 
+السؤال دا هيعتمد علي إسمك بس أنا هيبقي حرف
 A
 ```cpp
 #include <iostream>
@@ -121,13 +121,13 @@ using namespace std;
 int main() {
 	int num1 = 60;
 	int num2 = 7;
-	
+
 	int sum = num1 + num2;
 	int diff = num1 - num2;
 	int mul = num1 * num2;
 	int div = num1 / num2;
 	int ram = num1 % num2;
-	
+
 	cout << "Sum :" << sum << endl;
 	cout << "Difference :" << diff << endl;
 	cout << "Product :" << mul << endl;
@@ -144,18 +144,18 @@ using namespace std;
 int main() {
 	int num1;
 	int num2;
-	
+
 	cout << "Enter the first number :";
 	cin >> num1;
 	cout << "Enter the second number :";
 	cin >> num2;
-	
+
 	int sum = num1 + num2;
 	int diff = num1 - num2;
 	int mul = num1 * num2;
 	int div = num1 / num2;
 	int ram = num1 % num2;
-	
+
 	cout << "Sum :" << sum << endl;
 	cout << "Difference :" << diff << endl;
 	cout << "Product :" << mul << endl;
@@ -212,7 +212,7 @@ int main() {
 	cout << "Enter lenght in inches :"
 	cin >> in;
 	cm = in * 2.54;
-	cout << cm << " cm" << endl; 
+	cout << cm << " cm" << endl;
  	return 0;
 }
 ```
@@ -224,7 +224,7 @@ using namespace std;
 
 int main() {
 	cout << "Simple Calculator" << endl;
-	
+
     float num1;
     int num2;
 
@@ -254,30 +254,30 @@ int main() {
 using namespace std;
 
 int main() {
-	
+
 	float mileageS, mileageE;
 	float fuleS, fuleE;
 	float fuleUsed, milesTravelld, milePerFule;
-	
+
 	cout << "Enter mileage at the start :";
 	cin >> mileageS;
 	cout << "Enter Ending at the end :";
 	cin >> mileageE;
-	
+
 	cout << "Enter fule at the start (liters):";
 	cin >> fuleS;
 	cout << "Enter fule at the end (liters):";
 	cin >> fuleE;
-	
+
 	fuleUsed = fuleS - fuleE;
 	milesTravelld = mileageE - mileageS;
 	milePerFule = milesTravelld / fuleUsed;
-	
+
 	cout << "Fule used :" << fuleUsed << " liters." << endl;
 	cout << "Miles travelled :" << milesTravelld << " miles." << endl;
 	cout << "Miles travelled per fule liters :" << milePerFule << " miles/liter." << endl;
 
-	
+
 	return 0;
 }
 ```
