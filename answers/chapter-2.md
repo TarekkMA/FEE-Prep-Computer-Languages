@@ -198,9 +198,29 @@ int main() {
 ```
 #### 14.
 **Write and rum a program like the one in Example 2.2 that prints the ASCII codes for only the 10 upper case and lower case vowels.**    
-مش فاهم السؤال أوي  :sweat_smile:
-شارك بالحل بتاعك علشان نضيفة هنا.
+```cpp
+#include<iostream>
+using namespace std;
+void swap1 (int n1 , int n2);
+int main ()
+{
+	char c;
+	cout << "Enter a character:";
+	cin >> c;
+	switch (c){
+		case 'a':case 'A':
+		case 'e':case 'E':
+		case 'o':case 'O':
+		case 'i':case 'I':
+		case 'u':case 'U':
+			cout << c << " is a vowl" << endl;
+			break;
+		default:
+			cout << c << " is a consonant" << endl;
+	}
+}
 
+```
 #### 15.
 **Write a program that converts inches to centimeters For examplem if the user enters 16.9 for a length in inches the output would be 42.926 cm. (1 inch =2.54 centimeters)**
 ```cpp
