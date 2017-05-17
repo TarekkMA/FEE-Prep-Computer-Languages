@@ -9,6 +9,8 @@
     * [**Chapter 2**](answers/chapter-2.md) Done
     * [**Chapter 3**](answers/chapter-3.md) Done
     * [**Chapter 4**](answers/chapter-4.md) Done
-* #### [:exclamation: Important Questions](important-questions/1.md)
-
+* #### :exclamation: Important Questions
+    * [**أسئلة دوك مها**](important-questions/1.md)
+* #### :clipboard: Previous Exams
+    * [**Sheet 3 Control Statements**](important-questions/Sheet 3 Control Statements/answers.md)
 ***
