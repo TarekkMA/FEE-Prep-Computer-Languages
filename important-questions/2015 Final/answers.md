@@ -53,9 +53,10 @@ using namespace std;
 
 int main(){
 
-	for(int i = 101;i<=300;i++){
+	int i = 101;
+	do{
 		if(i%5 == 0) cout << i << endl;
-	}
+	}while(++i <= 300);
 
 }
 ```
