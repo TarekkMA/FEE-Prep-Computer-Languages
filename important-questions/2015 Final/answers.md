@@ -105,25 +105,27 @@ int Sum(int n);
 
 int main(){
 
-	int n;
+    int n;
 
-	cout << "Please enter N:";
-	cin >> n;
+    cout << "Please enter N:";
+    cin >> n;
 
-	cout << "Sum of " << n <<  " odd numbers is " << Sum(n) << endl;
+    cout << "Sum of odd numbers is " << Sum(n) << endl;
 
 }
 
 int Sum(int n){
 	int sum = 0;
-	int i = 1;
-	while(n!=0){
-		sum += i;
-		i +=2 ;
-		n--;
-	}
-	return sum;
+    while(n!=0){
+		int num;
+        cout << "Enter Number:";
+        cin >> num;
+        if(num%2!=0)sum+=num;
+        n--;
+    }
+    return sum;
 }
+
 ```
 ![b](4-b.png)    
 ```cpp
