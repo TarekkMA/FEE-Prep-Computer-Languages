@@ -201,24 +201,17 @@ int main() {
 ```cpp
 #include<iostream>
 using namespace std;
-void swap1 (int n1 , int n2);
 int main ()
 {
-	char c;
-	cout << "Enter a character:";
-	cin >> c;
-	switch (c){
-		case 'a':case 'A':
-		case 'e':case 'E':
-		case 'o':case 'O':
-		case 'i':case 'I':
-		case 'u':case 'U':
-			cout << c << " is a vowl" << endl;
-			break;
-		default:
-			cout << c << " is a consonant" << endl;
-	}
+
+	cout << "A:" << (int)'A' << "\ta:" << (int)'a' << endl;
+	cout << "E:" << (int)'E' << "\te:" << (int)'e' << endl;
+	cout << "O:" << (int)'O' << "\to:" << (int)'o' << endl;
+	cout << "I:" << (int)'I' << "\ti:" << (int)'i' << endl;
+	cout << "U:" << (int)'U' << "\tu:" << (int)'u' << endl;
+
 }
+
 
 ```
 #### 15.
