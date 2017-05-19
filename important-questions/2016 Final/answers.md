@@ -42,12 +42,19 @@ sum(x,y,z) = 13
 ### a
 ![](2-a.jpg)
 ```cpp
-	do{
-		cout << "Enter N:";
-		cin >> n;
-	}while(n<30);
 
-	for(int i=6;i<n;i+=2) cout << i << endl;
+int n;
+do{
+	cout << "Enter N:";
+	cin >> n;
+}while(n <= 30);
+
+int i = 6;
+
+while(i < n){
+	cout << i << endl;
+	i+=2;
+}
 ```
 ### b
 ![](2-b.jpg)
