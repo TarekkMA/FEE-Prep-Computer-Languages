@@ -20,7 +20,7 @@ float mark;
 ## 2-4
 ![p1](q4.jpg)
 ```cpp
-for(int i=51;i<100) cout << i << endl;
+for(int i=51;i<100;i+=2) cout << i << endl;
 ```
 
 ## 3
