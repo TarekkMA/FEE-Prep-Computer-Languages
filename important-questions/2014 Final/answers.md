@@ -125,7 +125,7 @@ using namespace std;
 
 int main(){
 
-	const int size = 10;
+	const int size = 50;
 	int X[size];
 
 
