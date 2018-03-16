@@ -239,7 +239,7 @@ int main() {
 	cout << "Simple Calculator" << endl;
 
     float num1;
-    int num2;
+    float num2;
 
     cout << "Enter the first number :";
     cin >> num1;
@@ -250,7 +250,7 @@ int main() {
     float diff = num1 - num2;
     float mul = num1 * num2;
     float div = num1 / num2;
-    float ram = num1 % num2;
+    float ram = (int)num1 % (int)num2;
 
     cout << "Sum :" << sum << endl;
     cout << "Difference :" << diff << endl;
